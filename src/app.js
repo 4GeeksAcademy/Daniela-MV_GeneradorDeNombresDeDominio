@@ -7,22 +7,27 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //write your code here
+
 let pronoun = ['the', 'our'];
 let adj = ['great', 'big'];
 let noun = ['jogger', 'racoon'];
 let extension = ['.com', '.net'];
 
-for (let i = 0; i < pronoun.length; i++) {
-  for (let i=0; i<adj.length; i++){
-    for (let j = 0; j < noun.length; j++) {
-      for (let k = 0; k < extension.length; k++){
+let dominios = pronoun + adj+ noun + extension;
+// for (let i = 0; i < pronoun.length; i++) {
+// for (let j=0; j <adj.length; j++){
+// }
+// for (let k = 0; k < noun.length; k++){
+// }
+// for (let l = 0; l < extension.length; l++){
+//   return i,j,k,l
   
-     }
-   }
-}
-console.log('${i}' '${j}' '${k}' )
-}
+// }
+
+// }
+console.log(dominios);
+
+  }
+  
 
 
-  // console.log("Hello Rigo from the console!");
-};
